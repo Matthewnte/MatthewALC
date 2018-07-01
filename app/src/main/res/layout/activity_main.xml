@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_purple">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="50dp"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java Quiz"
+        android:textSize="24sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="1. What is the full meaning of ALC ?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_one_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_one_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Ant learning cow"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_one_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Andela learning community"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_one_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Andela league of learners"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="2. What views are shown above?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_two_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_two_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="RadioButton, ImageView and Textview"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_two_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Checkbox, view, Radio"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_two_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Something, something and somethinge else"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="3. What is a class in java?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_three_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_three_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="A class is a blueprint from which individual objects are created."
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_three_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Class is a special data type."
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_three_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Class is used to allocate memory to a data type."
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="4. What is the size of a boolean variable?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_four_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_four_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_four_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="0.0"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_four_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="null"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="5. Which os the following is a marker?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_five_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_five_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Serializable"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_five_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Comparable"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_five_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Cloneable"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="6. Which of the following is not a type of view?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_six_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question_six_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_six_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Button"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/question_six_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="CheckboxView"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="75dp"
+            android:textSize="16sp"
+            android:text="reset"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="submit" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
